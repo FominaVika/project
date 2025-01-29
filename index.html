@@ -1,16 +1,64 @@
-<!DOCTYPE html>
-<html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Фитнес</title>
-</head>
-<body>
-    <header>Шапка сайта</header>
-        <nav>
-            Навигация
-        </nav>
- <main>Основной контент</main>
- <footer>Подвал</footer>   
-</body>
+<!DOCTYPE html> 
+<html lang="ru"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Document</title> 
+    <link rel="stylesheet" href="styles/normalize.css"> 
+    <link rel="stylesheet" href="styles/style.css"> 
+</head> 
+<body> 
+    <header class="header container">  
+        <a class="hader__Logo-warp" hrew="index.html"> 
+            <img class="header__Logo" src="images/Логотип.jpg" alt="Логотип" width="100"> 
+            <h1 class="header__title">Фитнес и питание</h1> 
+        </a> 
+        <div class="header__button"> 
+            <a class="header__button" href="entrance.html"> Вход</a> 
+            <a class="header__button" href="registration.html"> Регистрация</a> 
+        </div> 
+        <nav class="header__menu"> 
+            <u1 class="menu"> 
+                <li class="menu__item menu__item--active"> 
+                    <a class="menu__link" href="index.html">Главная</a> 
+                </li> 
+                <li class="menu__item"> 
+                    <a class="menu__link" href="training.html"> Тренировки</a> 
+                </li> 
+                <li class="menu__item"> 
+                    <a class="menu__link" href="nutrition.html"> Питание</a> 
+                </li> 
+                <li class="menu__item"> 
+                    <a class="menu__link" href="community.html"> Сообщество</a> 
+                </li> 
+            </u1> 
+        </nav> 
+    </header> 
+    <main class="main container"> 
+        <div class="news"> 
+            <h2 class="news__title">Новости </h2> 
+            <div class="news_card"> 
+                <img class="news__image" src="images/news1.jpg" alt="" width="200"> 
+                <p class="news__subtitle">статья</p> 
+                <p class="news__desc">краткое содержание</p> 
+                <a class="news__link" href="#"> Читать дальше</a> 
+            </div> 
+            <div class="news_card"> 
+                <img class="news__image" src="images/news2.jpg" alt="" width="200"> 
+                <p class="news__subtitle">статья</p> 
+                <p class="news__desc">краткое содержание</p> 
+                <a class="news__link" href="#"> Читать дальше</a> 
+            </div> 
+            <div class="news_card"> 
+                <img class="news__image" src="images/news3.jpg" alt="" width="200"> 
+                <p class="news__subtitle">статья</p> 
+                <p class="news__desc">краткое содержание</p> 
+                <a class="news__link" href="#"> Читать дальше</a> 
+            </div> 
+        </div> 
+    </main> 
+    <footer class="footer  container">  
+        <p class="footer__desc">Фомина Виктория, группа - ЭК-21</p> 
+    </footer> 
+</body> 
 </html>
